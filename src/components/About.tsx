@@ -32,8 +32,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-slate-600 leading-relaxed">
-              I'm a passionate full-stack developer with over 5 years of experience building 
-              web applications that users love. My journey started with a curiosity about how 
+              I'm a passionate full-stack developer building web applications that users love. My journey started with a curiosity about how 
               things work on the web, and it's evolved into a career focused on creating 
               meaningful digital experiences.
             </p>
