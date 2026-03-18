@@ -69,7 +69,7 @@ const Hero = () => {
   };
 
   const name = "NAVEEN";
-  const techStack = ['React', 'TypeScript', 'Node.js', 'Tailwind'];
+  const techStack = ['React', 'Java', 'Python', 'MYSQL'];
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center bg-[#FAF9F6] relative overflow-hidden font-display">
