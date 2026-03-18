@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
@@ -29,9 +29,12 @@ const Header = () => {
     }`}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
-            <span className="text-2xl font-bold text-slate-800">Portfolio</span>
-          </div>
+          <button
+            onClick={() => scrollToSection('hero')}
+            className="flex-shrink-0 text-2xl font-bold text-slate-800 hover:text-blue-600 transition-colors duration-200 cursor-pointer"
+          >
+            Portfolio
+          </button>
           
           {/* Desktop Navigation */}
           <div className="hidden md:block">
