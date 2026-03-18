@@ -6,7 +6,6 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         { name: "React", level: 95 },
-        
         { name: "HTML", level: 95 },
         { name: "CSS", level: 90 }
       ]
