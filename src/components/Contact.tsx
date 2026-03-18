@@ -52,7 +52,8 @@ const Contact = () => {
     setStatus({ loading: true, success: false, error: null });
 
     try {
-      const res = await fetch('https://portserver-production-d357.up.railway.app/api/contact', {
+      const API_URL = import.meta.env.VITE_API_URL || 'https://portserver-production-d357.up.railway.app';
+      const res = await fetch(`${API_URL}/api/contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
